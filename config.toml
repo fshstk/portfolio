@@ -27,6 +27,10 @@ link = "photography"
 text = "photography"
 
 [[params.mainMenu]]
+link = "writing"
+text = "writing"
+
+[[params.mainMenu]]
 link = "projects"
 text = "projects"
 
