@@ -1,3 +1,38 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "https://fshstk.com"
+defaultContentLanguage = "en"
+isMultilingual = false
+languageCode = "en-gb"
+
+pygmentsCodefences = true
+pygmentsStyle = "monokai"
+
+theme = "sam-fork"
+
+publishDir = "public"
+title = "fshstk.com"
+
+[params]
+dateform = "2006/01/02" 
+dateformfull = "2 Jan. 2006" 
+favicon = "fshstk.png" 
+footerText = "[©](https://github.com/fshstk/portfolio) 2020 fabian hummel" 
+homepage = "home" # link name
+
+[[params.mainMenu]]
+link = "music"
+text = "music"
+
+[[params.mainMenu]]
+link = "photography"
+text = "photography"
+
+[[params.mainMenu]]
+link = "projects"
+text = "projects"
+
+[[params.mainMenu]]
+link = "about"
+text = "about me"
+
+[imaging]
+quality = 75
