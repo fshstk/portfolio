@@ -3,3 +3,6 @@ public/
 
 # Misc:
 ignore/
+
+# Hugo generated resource files:
+resources/
